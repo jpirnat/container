@@ -9,8 +9,7 @@ use Throwable;
 
 class DiceContainer implements ContainerInterface
 {
-    /** @var Dice $dice */
-    protected $dice;
+    private Dice $dice;
 
     /**
      * Constructor.
